@@ -2,10 +2,10 @@ import React from "react";
 import header_logo from "../assets/logo.png";
 import dayConverter from "../helper/dayConverter";
 import firstLetterCapitalize from "../helper/firstLetterCapitalize";
-import humidity from "../assets/agua.png";
-import wind from "../assets/vento.png";
-import rain from "../assets/chuva.png";
-import weatherType from "../assets/nuvemsol.png";
+import humidity from "../assets/humidity.png";
+import wind from "../assets/wind.png";
+import feels_like from "../assets/feels_like.png";
+import weatherType from "../assets/weather_type.png";
 import gitHub from "../assets/github.png";
 import linkedIn from "../assets/linkedin.png";
 import axios from "axios";
@@ -93,7 +93,7 @@ function App(props) {
                   </span>
 
                   <span>
-                    <img src={rain} alt="rain" />
+                    <img src={feels_like} alt="feels_like" />
                     <p>
                       {parseFloat(
                         result ? result.main.feels_like - 273.15 : 0
