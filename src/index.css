@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  max-width: 100%;
+  max-height: fit-content;
+  overflow-x: hidden;
+  background-image: url("/src/assets/bg.jpg");
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+.main-wrapper {
+  width: 100vw;
+  height: 91vh;
+}
+
+.header {
+  width: 100%;
+  height: 103px;
+  background-color: rgba(197, 226, 255, 0.7);
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+  padding-top: 15px;
+  opacity: 1;
+}
+
+.forecast {
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+}
+.middle-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 108px;
+  padding-right: 108px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.inside-content {
+  height: 445px;
+}
+.first-pannel {
+  display: flex;
+  flex-direction: column;
+  max-width: 870px;
+  height: 600px;
+  background-color: rgba(197, 226, 255, 0.2);
+  z-index: 1000;
+  border-radius: 35px;
+}
+
+.first-pannel input {
+  height: 40px;
+  width: 700px;
+  padding-left: 12px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+  background-color: rgba(197, 226, 255);
+  border-radius: 8px;
+  font-size: large;
+  color: rgb(2, 24, 68);
+}
+
+.weather-info1 {
+  display: inline-block;
+  width: 391px;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.weather-info1 span {
+  width: 210px;
+  display: flex;
+}
+
+.weather-info1 img {
+  width: 50px;
+  height: 57px;
+}
+.weather-info1 p {
+  margin: 0;
+  margin-top: 10px;
+  padding-left: 25px;
+  font-size: 30px;
+  color: rgb(157, 208, 237);
+}
+.city {
+  padding-top: 40px;
+  font-weight: 500;
+  font-size: 50px;
+  margin: 0;
+  margin-left: 45px;
+}
+
+.country {
+  font-weight: 500;
+  font-size: 35px;
+  margin: 0;
+  margin-left: 45px;
+}
+
+.day {
+  font-weight: 500;
+  font-size: 35px;
+  margin: 0;
+  margin-left: 45px;
+}
+
+.weather-img {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  max-width: 35px;
+  gap: 15px;
+  margin-left: 45px;
+}
+
+.temp {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 422px;
+  font-weight: 500;
+  font-size: 60px;
+  margin-right: 55px;
+  float: right;
+}
+
+.temp h2 {
+  padding-top: 50%;
+  padding-left: 20%;
+  margin: 0;
+  bottom: 0;
+  font-size: 65px;
+}
+
+.temp img {
+  width: 124px;
+  height: 99px;
+  float: left;
+}
+
+.temp p {
+  font-size: 20px;
+  padding-left: 150px;
+}
+
+.second-pannel {
+  width: 800px;
+  height: 285px;
+  background-color: rgba(197, 226, 255, 0.2);
+  z-index: 1000;
+  border-radius: 35px;
+}
+
+.second-pannel-header {
+  height: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 35px 35px 0 0;
+  text-align: center;
+
+  color: rgb(2, 24, 68);
+  background-color: rgba(197, 226, 255);
+}
+.second-pannel-header span {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.last-city {
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.stretcher {
+  height: 25px;
+}
+.third-pannel {
+  width: 800px;
+  height: 285px;
+  background-color: rgba(197, 226, 255, 0.2);
+  z-index: 1000;
+  border-radius: 35px;
+}
+
+.third-pannel-header {
+  height: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 35px 35px 0 0;
+  text-align: center;
+  color: rgb(2, 24, 68);
+  background-color: rgba(197, 226, 255);
+}
+
+.most-searched-city li {
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.third-pannel-header span {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.footer {
+  height: 86px;
+  width: 100vw;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 85px;
+  padding-right: 50px;
+}
+.footer p {
+  width: 900px;
+  height: 34px;
+  color: white;
+  margin-left: 50px;
+  font-size: 15px;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.footer-wrapper span {
+  float: right;
+  width: 1920px;
+  align-self: center;
+  padding-right: 150px;
+}
+.footer-wrapper img {
+  float: right;
+  width: 49px;
+  height: 43px;
+}
