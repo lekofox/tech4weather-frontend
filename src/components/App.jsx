@@ -11,9 +11,10 @@ import linkedIn from "../assets/linkedin.png";
 import axios from "axios";
 
 function App(props) {
+  const herokuProxy = 'https://mycorsproxy-tech4weather.herokuapp.com/'
   const postIntoDb = (city, country) => {
     axios
-      .post("https://tech4weather-api.herokuapp.com/post", {
+      .post(`${herokuProxy}https://tech4weather-api.herokuapp.com/post`, {
         city: city,
         country: country,
       })
@@ -153,7 +154,7 @@ function App(props) {
                 className="most-searched-city"
                 onLoad={
                   (window.onload = () => {
-                    axios.get("https://tech4weather-api.herokuapp.com/list").then((response) => {
+                    axios.get(`${herokuProxy}https://tech4weather-api.herokuapp.com/list`).then((response) => {
                       return setHistoric(response.data);
                     });
                   })
