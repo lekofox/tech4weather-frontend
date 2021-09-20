@@ -13,7 +13,7 @@ import axios from "axios";
 function App(props) {
   const postIntoDb = (city, country) => {
     axios
-      .post("http://localhost:3333/post", {
+      .post("https://tech4weather-api.herokuapp.com/post", {
         city: city,
         country: country,
       })
@@ -153,7 +153,7 @@ function App(props) {
                 className="most-searched-city"
                 onLoad={
                   (window.onload = () => {
-                    axios.get("http://localhost:3333/list").then((response) => {
+                    axios.get("https://tech4weather-api.herokuapp.com/list").then((response) => {
                       return setHistoric(response.data);
                     });
                   })
