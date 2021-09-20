@@ -43,7 +43,7 @@ $ cd tech4weather-frontend
 $ npm install ou yarn
 
 # Rode a aplicação
-$ npm start
+$ npm start ou yarn start
 ```
 
 <!-- LICENSE -->
