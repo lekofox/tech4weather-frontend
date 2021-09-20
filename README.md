@@ -4,6 +4,9 @@
 
 - [📋 Sobre](#Sobre)
 - [🕹 Tecnologias](#Tecnologias)
+
+- [🧑🏽‍💻 Iniciando](#Iniciando)
+
 - [📝 Licença](#Licença)
 
 
@@ -28,7 +31,17 @@
 
 <hr>
 
+<!-- TECHNOLOGIES -->
 
+# Iniciando
+
+
+<hr>
+
+### Acessando online (Amplify)
+Você pode acessar a aploicação em ambiente de produção neste [link](https://main.d3svjao3qnckzx.amplifyapp.com/). O deploy foi realizado com Amplify e o back-end está hospedado no Heroku.
+
+<hr>
 ### Instalação e uso
 
 ```bash
@@ -43,7 +56,7 @@ $ cd tech4weather-frontend
 $ npm install ou yarn
 
 # Rode a aplicação
-$ npm start ou yarn start
+$ npm start
 ```
 
 <!-- LICENSE -->
